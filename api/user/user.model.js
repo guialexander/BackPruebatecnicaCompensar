@@ -10,7 +10,6 @@ const UserSchema = new mongoose.Schema({
 
   lastName:{
     type: String,
-    required:true,
     trim: true,
   },
   bio:String,
@@ -26,11 +25,14 @@ const UserSchema = new mongoose.Schema({
     unique: [true, 'Email must be unique'],
     trim: true,
   },
-  role: {
+  phone:{
     type: String,
-    enum: ['ADMIN', 'role_user'],
-    default: 'role_user',
+    require:true,
+    unique:[true,'Phone must be unique'],
+    trim:true
+
   },
+
   avatar :{
     type: String,
     default: 'defaul.png',
@@ -60,9 +62,8 @@ UserSchema.virtual('profile').get(function () {
 
   return {
     name:   user.name,
+    phone:  user.phone,
     email:  user.email,
-    role:   user.role,
-    nick:   user.nick,
     avatar: user.avatar
   }
 });

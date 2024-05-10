@@ -21,10 +21,8 @@ async function create(input) {
 
   const user = {
       name: input.name,
-      lastName: input.lastName,
-      nick:  input.nick,
+      phone: input.phone,
       email: input.email,
-      role: input.role,
       avatar: input.avatar,
       password: hashedPassword,
       passwordResetExpires: new Date(expiresIn), // 24 hours
