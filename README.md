@@ -88,8 +88,19 @@ para interactuar correctamente con la base de datos MongoDB Atlas.
 3. Abrir una terminal, ingresar a la carpeta BackPruebaTecnica
 
 4. Ejecuta npm install para instalar todas las dependencias del proyecto.
+
+5. Crear un file en la raíz llamado .env e ingresar las variables de entorno:
+
+
+  PORT=8080
+
+
+  MONGO_DB_URI=mongodb+srv://guillermoaherrerar:OUy3O1F0Y0aQQwgf@cluster0.yopflhn.mongodb.net/BackPruebaTecnicabd
+
+  ![image](https://github.com/guialexander/BackPruebatecnicaCompensar/assets/71296562/ac136a3f-0d8f-4a6f-99dc-cc079e84dbd0)
+
  
-5. Inicia la aplicación ejecutando npm start ...
+7. Inicia la aplicación ejecutando npm start ...
    
 > backend@1.0.0 start
 > node index.js
