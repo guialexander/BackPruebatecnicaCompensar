@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guialexander/BackPruebaTecnica"
+    "url": "https://github.com/guialexander/BackPruebatecnicaCompensar"
   },
   "author": "Guillermo Alexander Herrera",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/guialexander/BackPruebatecnicaCompensar"
   },
   "homepage": "",
   "devDependencies": {

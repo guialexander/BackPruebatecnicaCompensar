@@ -23,7 +23,7 @@ async function create(input) {
     }
 
 
-  return Survey.create(user);
+  return Survey.create(survey);
 }
 
 function update(id, data) {

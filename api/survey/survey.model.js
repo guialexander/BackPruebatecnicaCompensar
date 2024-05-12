@@ -19,10 +19,6 @@ const SurveySchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  datecalendar: {
-    type: String,
-    required: true
-  },
   datesurvey: {
     type:Date,
     require:true
