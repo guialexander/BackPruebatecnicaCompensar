@@ -1,4 +1,4 @@
-### Prueba Técnica - Backend
+# Prueba Técnica - Backend
 ##Construido con:
 - Express: Framework de Node.js
 - MongoDB Atlas: Base de datos
