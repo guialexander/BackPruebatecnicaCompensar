@@ -1,5 +1,5 @@
 # Prueba Técnica - Backend
-##Construido con:
+## Construido con:
 - Express: Framework de Node.js
 - MongoDB Atlas: Base de datos
 - Mongoose: Modelado de objetos MongoDB para Node.js
