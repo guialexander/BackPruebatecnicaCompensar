@@ -36,6 +36,8 @@ el servidor elimina el documento de usuario o encuesta correspondiente de la bas
 
 en la imagen se observa cómo se realizan las peticiones:
 imagen1:
+![image](https://github.com/guialexander/BackPruebatecnicaCompensar/assets/71296562/1a1843d7-9ae8-464b-a8f6-2369cd1c0772)
+
 
 
 
@@ -44,7 +46,7 @@ Para el proceso de login de usuarios, hemos configurado una ruta en nuestro serv
 Esta ruta se encuentra en http://localhost:8080/auth/local/login.
 
 
-### Proceso de Autenticación:
+# Proceso de Autenticación:
 
 
 ## Ruta de autenticación: 
@@ -87,9 +89,8 @@ para interactuar correctamente con la base de datos MongoDB Atlas.
 
 4. Ejecuta npm install para instalar todas las dependencias del proyecto.
  
-5. Inicia la aplicación ejecutando npm start 
-npm start
-
+5. Inicia la aplicación ejecutando npm start ...
+   
 > backend@1.0.0 start
 > node index.js
 
